@@ -1,3 +1,1 @@
-function delay (URL, ms) {
-    setTimeout( function() { window.location = URL }, ms);
-}
+alert("This game is meant to play as an interview/interogation, there are multiple answers that lead to multiple branches in the story. Enjoy!")

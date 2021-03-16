@@ -75,3 +75,9 @@ body{
       font-size: 28px;
       
   }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }

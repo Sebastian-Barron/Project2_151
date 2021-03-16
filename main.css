@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    padding: 200px;
+    background-color: #121212;  
+    
+  }
+  
+  p {
+    /* border-right: solid 15px #01ff06; */
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'VT323', monospace;  
+    font-size: 28px;
+    color: #01ff06;
+  }
+ 
+  
+  /* Animation */
+    p {
+    animation: animated-text 3s steps(65,end) 1s 1 normal both;
+               /* animated-cursor 600ms steps(65,end) infinite;*/
+     } 
+  p:nth-child(2) {
+    animation: animated-text2 3s steps(45,end) 5s 1 normal both;
+               /* animated-cursor 600ms steps(45,end) infinite; */
+  }
+  p:nth-child(3) {
+    animation: animated-text3 3s steps(45,end) 10s 1 normal both;
+               /* animated-cursor 600ms steps(45,end) infinite; */
+  }
+
+  p:nth-child(4) {
+    animation: animated-text3 3s steps(45,end) 12s 1 normal both;
+               /* animated-cursor 600ms steps(45,end) infinite; */
+  }
+
+  p:nth-child(5) {
+    animation: animated-text3 3s steps(45,end) 15s 1 normal both;
+               /* animated-cursor 600ms steps(45,end) infinite; */
+  }
+
+  p:nth-child(6) {
+    animation: animated-text3 3s steps(45,end) 17s 1 normal both;
+               /* animated-cursor 600ms steps(45,end) infinite; */
+  }
+  /*text animation*/
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 100ch;}
+  } 
+
+  @keyframes animated-text2{
+    from{width: 0;}
+    to{width: 100ch;}
+  } 
+
+  @keyframes animated-text3{
+    from{width: 0;}
+    to{width: 100ch;}
+  } 
+  
+  /* cursor animations */
+
+  /* @keyframes animated-cursor{
+    from{border-right-color:#01ff06;}
+    to{border-right-color: transparent;}
+  }  */
+
+
+  a{
+      font-family:'VT323', monospace;
+      color: #80e982;
+      font-size: 28px;
+      
+  }
